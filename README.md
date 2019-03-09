@@ -1,7 +1,7 @@
 
 # Hexo-Next-Blog
 
-一个使用了Next主题的Hexo, 写博客，发markdown简历。[站点Demo](https://blog.alanwen.online/)
+一个使用了Next主题的Hexo, 写博客，发markdown简历。觉得还不错，就给个star鼓励一下，蟹蟹大家[站点Demo](https://blog.alanwen.online/)
 
 ## 特性
 
