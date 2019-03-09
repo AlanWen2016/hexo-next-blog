@@ -1,7 +1,7 @@
 
 # Hexo-Next-Blog
 
-一个使用了Next主题的Hexo, 写博客，发markdown简历。
+一个使用了Next主题的Hexo, 写博客，发markdown简历。[站点Demo](https://blog.alanwen.online/)
 
 ## 特性
 
@@ -15,7 +15,7 @@
 
 ``` bash
 $ npm install hexo-cli -g
-$ cd hexo-blog
+$ cd hexo-next-blog
 $ npm install
 $ hexo server
 ```
