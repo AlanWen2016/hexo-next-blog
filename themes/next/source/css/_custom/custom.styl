@@ -1,0 +1,87 @@
+// Custom styles.
+// 文章内链接文本样式 
+.post-body p a{ 
+    color: #0593d3; 
+    border-bottom: none; 
+    border-bottom: 1px solid #0593d3; 
+    &:hover { 
+        color: #49b1f5; 
+        border-bottom: none; 
+        border-bottom: 1px solid #49b1f5; 
+    } 
+}
+// 修改选中字符的颜色
+/* webkit, opera, IE9 */
+::selection { 
+    background: #00c4b6;
+    color: #f7f7f7; 
+}
+/* firefox */
+::-moz-selection { 
+    background: #00c4b6;
+    color: #f7f7f7;    
+}
+// 修改网站头部颜色
+.headband {
+    height: 3px;
+    background: #49b1f5;
+}
+.site-meta {
+    padding: 0px 0;
+    color: #fff;
+    background: #fff;
+}
+.site-subtitle {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #ffffff;
+}
+// 修改按键（button）样式
+.btn {
+    color: #49b1f5;
+    background: #fff;
+    border: 2px solid #49b1f5;
+}
+// 按键（button）点击时样式
+.btn:hover {
+  border-color: #49b1f5;
+  color: #fff;
+  background: #49b1f5;
+}
+
+
+// 鼠标移动至文章标题时的效果
+.posts-expand .post-title-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #49b1f5;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+// Custom styles.
+code {
+    color: #ff7600;
+    background: #fbf7f8;
+    margin: 2px;
+}
+// 大代码块的自定义样式
+.highlight, pre {
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+.highlight, code, pre {
+    border: 1px solid #d6d6d6;
+}
